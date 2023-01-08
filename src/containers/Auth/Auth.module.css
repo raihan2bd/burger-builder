@@ -1,0 +1,25 @@
+.Auth { 
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #000;
+  transition: 4s;
+}
+
+.Menu {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Input {
+  display: block;
+} 
+
+@media (min-width: 600px) {
+  .Auth { 
+    width: 500px;
+  }
+}
